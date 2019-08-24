@@ -1,0 +1,13 @@
+root = true
+
+[*]
+end_of_line = lf
+trim_trailing_whitespace = true
+
+[*.java]
+indent_size = 4
+indent_style = tab
+
+[*.{js,json}]
+indent_size = 2
+indent_style = space
