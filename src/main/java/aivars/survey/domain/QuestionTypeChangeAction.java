@@ -1,0 +1,14 @@
+package aivars.survey.domain;
+
+public enum QuestionTypeChangeAction {
+
+	NONE,
+	FORBID,
+	ADD_ANSWERS,
+	ADD_ANSWERS_AND_SUBQUESTIONS,
+	ADD_SUBQUESTIONS,
+	REMOVE_ANSWERS,
+	REMOVE_ANSWERS_AND_SUBQUESTIONS,
+	REMOVE_SUBQUESTIONS
+
+}
